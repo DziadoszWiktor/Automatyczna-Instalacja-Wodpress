@@ -1,4 +1,4 @@
-# **Automatyczne Instalacja Wordpress**
+# **Automatyczna Instalacja Wordpress**
 ## **1.** Instalacja ansible
     yum install ansible 
 ## **2.** Tworzenie plików konfiguracyjnych potrzebnych do ansible w dowolnym folderze
