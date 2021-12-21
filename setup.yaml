@@ -1,0 +1,9 @@
+---
+- hosts: WordPress_nodes
+  become: yes
+  vars_files:
+    - vars/db_cred.yaml
+  tasks:
+    - include_tasks: tasks/db.yaml
+    - include_tasks: tasks/packages.yaml
+    - include_tasks: tasks/WordPress.yaml
